@@ -1,6 +1,6 @@
 #pragma once
 #include "Syati.h"
-#include "Game/MapObj/PurpleCoinHolder.h"
+#include "PurpleCoinHolder.h"
 
 class PurpleCoinStarter : public NameObj {
 public:

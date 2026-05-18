@@ -1,6 +1,10 @@
 #pragma once
 #include "Syati.h"
-#include "Game/MapObj/PurpleCoinStarter.h"
+#include "Game/LiveActor/LiveActorGroup.h"
+
+class Coin;
+class NameObj;
+class PurpleCoinStarter;
 
 class PurpleCoinHolder : public DeriveActorGroup< Coin > {
 public:

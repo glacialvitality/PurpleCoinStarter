@@ -1,4 +1,4 @@
-#include "Game/MapObj/PurpleCoinStarter.h"
+#include "PurpleCoinStarter.h"
 #include "Game/Util.h"
 
 PurpleCoinStarter::PurpleCoinStarter(const char* pName) : NameObj(pName) {

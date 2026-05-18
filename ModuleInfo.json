@@ -1,0 +1,20 @@
+{
+  "Name": "Purple Coin Starter",
+  "Author": "GlacialVitality",
+  "Description": "A starter object that spawns Purple Coins and the UI when activated. Ported from Super Mario Galaxy (2007).",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "SupportedGames": [
+    "SB4E"
+  ],
+  "ModuleData" : [
+    {
+      "NameObjFactory": [
+        {
+          "Name" : "PurpleCoinHolder",
+          "Function" : "createExtActor<PurpleCoinHolder>",
+          "Include" : "PurpleCoinHolder.h"
+        }
+      ]
+    }
+  ]
+}

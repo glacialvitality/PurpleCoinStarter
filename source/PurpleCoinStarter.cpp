@@ -9,7 +9,7 @@ PurpleCoinStarter::PurpleCoinStarter(const char* pName) : NameObj(pName) {
 void PurpleCoinStarter::init(const JMapInfoIter& rIter) {
     mSwitchCtrl = MR::createStageSwitchCtrl(this, rIter);
     MR::listenNameObjStageSwitchOnAppear(this, mSwitchCtrl,
-                                         MR::FunctorV0M< PurpleCoinStarter*, void (PurpleCoinStarter::*)(void) >(this, &PurpleCoinStarter::start));
+    MR::FunctorV0M< PurpleCoinStarter*, void (PurpleCoinStarter::*)(void) >(this, &PurpleCoinStarter::start));
     MR::createPurpleCoinHolder();
     MR::registPurpleCoinStarter(this);
 }
